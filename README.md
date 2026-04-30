@@ -14,6 +14,6 @@ Ferramenta simples e direta para consulta e geolocalização de IPs diretamente 
 - Python 3.6+
 - Biblioteca `requests`
 
+## ── ▶️ COMO USAR
 ```bash
-pip install requests
-
+pip install requeriments.txt
