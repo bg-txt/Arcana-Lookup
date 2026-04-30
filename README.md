@@ -1,41 +1,19 @@
-Arcana-Lookup
+# 🚀 Arcana-Lookup
 
-Ferramenta simples de consulta e geolocalização de IP via terminal.
-Nada muito complexo — só pra facilitar o dia a dia.
+## ── 📌 SOBRE
+Ferramenta simples e direta para consulta e geolocalização de IPs diretamente pelo terminal. Sem firulas, feita pra facilitar sua vida na hora de descobrir a origem de um endereço IP.
 
-🚀 Funcionalidades
-Consulta de IP manual ou automático
-Exibe:
-Cidade, país e região
-Latitude e longitude
-Fuso horário
-ISP e organização
-Abrir localização no Google Maps
-Abrir IP em site de tracking
-Interface em ASCII no terminal
-🛠️ Requisitos
-Python 3
-requests
+## ── ⚙️ FUNCIONALIDADES
+- Consulta de IP próprio ou informado pelo usuário
+- Geolocalização com país, região, cidade e coordenadas
+- Informações de operadora (ISP) e organização
+- Código leve e fácil de entender
+- Saída formatada e limpa no terminal
 
-Instalar:
+## ── 🛠️ REQUISITOS
+- Python 3.6+
+- Biblioteca `requests`
 
+```bash
 pip install requests
-▶️ Uso
-python3 ip_trace.py
-📁 Estrutura
-Arcana-Lookup/
-├── ip_trace.py
-└── README.md
-⚙️ Tecnologias
-Python
-requests
-webbrowser
-API: http://ip-api.com
-⚠️ Aviso
 
-Projeto feito apenas para fins simples e educacionais.
-Use com responsabilidade.
-
-👨‍💻 Comunidade
-
-dev bg.txt
